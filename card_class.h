@@ -111,7 +111,7 @@ public:
 			dealer_values.push_back(tmp.get_val());
 		}
 
-	//function to return the total value of the players currents deck
+	//function to return the total value of the players currents hand
 	int total_player() {
 		int total = 0;
 		for (auto x : player_values) {
